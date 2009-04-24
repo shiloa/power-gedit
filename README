@@ -1,0 +1,23 @@
+Credit:
+-------
+This repo is based on 2 quite excellent repositories by Matthew Swasey (http://github.com/mig), 
+that combined themes and plugins/language files for gnome's gedit text editor, mostly so that I
+could quickly setup a gedit on a new machine.
+
+In addition, I added an apt-get line to install 'pretty' monospaced fonts, but you can remove it safely.
+
+All credit is due to Mr. Swasey, of course. All I did is clone and combined these repos, and 
+added some plugins and langs I found along the way. Some changes were added to the install.sh,
+mostly to resolve file permissions that prevented the new additions from appearing in gedit.
+
+Install:
+--------
+run install.sh as root from it's directory - 
+power-gedit~$ sudo ./install.sh
+
+Configure:
+----------
+In gedit, go to Edit > Preferences
+* configure fonts and themes on Font & Colors tab.
+* configure pluggins on the Plugins tab.
+* configure snippets under Tools > Manage Snippets... menu
