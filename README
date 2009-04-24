@@ -17,6 +17,7 @@ power-gedit~$ sudo ./install.sh
 
 Configure:
 ----------
+(restart gedit if running)
 In gedit, go to Edit > Preferences
 * configure fonts and themes on Font & Colors tab.
 * configure pluggins on the Plugins tab.
