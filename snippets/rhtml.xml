@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="rhtml">
+  <snippet>
+    <text><![CDATA[<%= link_to "${1}", :action => "${2}" %>]]></text>
+    <tag>lt</tag>
+    <description>link_to</description>
+  </snippet>
+</snippets>

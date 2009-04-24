@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets language="Rails">
+  <snippet id="forin">
+    <text><![CDATA[<% for ${1:element} in ${2:collection} -%>
+            ${1:element}.$0
+          <% end -%>]]>
+    </text>
+    <description>for .. in .. end</description>
+    <tag>%for</tag>
+  </snippet>
+</snippets>
