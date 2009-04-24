@@ -16,7 +16,10 @@ sudo chmod 644 /usr/share/gtksourceview-2.0/language-specs/*.lang
 sudo cp themes/*.xml /usr/share/gtksourceview-2.0/styles
 sudo chmod 644 /usr/share/gtksourceview-2.0/styles/*.xml
 
-if [ ! -d $HOME/.gnome2/gedit ]
+# install some fonts
+sudo apt-get install ttf-bitstream-vera ttf-dejavu ttf-dejavu ttf-dejavu-core ttf-dejavu-extra ttf-liberation ttf-mscorefonts-installer
+
+if [ ! -d $HOME/.gnome2/gedit ] 
 then
   mkdir -p ~/.gnome2/gedit
   cp -r snippets ~/.gnome2/gedit/
@@ -38,4 +41,5 @@ fi
 
 cp -R plugins/* ~/.gnome2/gedit/plugins/
 sudo chmod +x -r ~/.gnome2/gedit/plugins/
+
 
