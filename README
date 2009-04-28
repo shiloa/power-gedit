@@ -12,6 +12,7 @@ mostly to resolve file permissions that prevented the new additions from appeari
 
 Install:
 --------
+** make sure you have ~/.gnome2/gedit/plugins and ~/.gnome2/gedit/snippets folders **
 run install.sh as root from it's directory - 
 power-gedit~$ sudo ./install.sh
 
