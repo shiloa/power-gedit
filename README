@@ -1,3 +1,13 @@
+Disclaimer:
+-----------
+THIS COMES WITH ABSOLUTELY NO GUARENTEE - WHAT WORKED FOR ME MAY NOT DO THE SAME FOR YOU.
+ALWAYS UNDERSTAND WHAT YOU'RE ABOUT TO RUN ON YOUR MACHINE. I RECOMMEND YOU READ CODE BEFORE
+RUNNING IT.
+
+With that said, I'll add that I'm doing my best to make sure this thing works without major issues.
+If you found a problem or want to fix a bug, email me.
+
+
 Credit:
 -------
 This repo is based on 2 quite excellent repositories by Matthew Swasey (http://github.com/mig), 
@@ -5,16 +15,22 @@ that combined themes and plugins/language files for gnome's gedit text editor, m
 could quickly setup a gedit on a new machine.
 
 In addition, I added an apt-get line to install 'pretty' monospaced fonts, but you can remove it safely.
+This font setup is commented by default, so remove the comment in the setup file to activate it.
 
 All credit is due to Mr. Swasey, of course. All I did is clone and combined these repos, and 
-added some plugins and langs I found along the way. Some changes were added to the install.sh,
+added some plugins and langs I found along the way. I re-wrote the setup file in ruby,
 mostly to resolve file permissions that prevented the new additions from appearing in gedit.
 
 Install:
 --------
-** make sure you have ~/.gnome2/gedit/plugins and ~/.gnome2/gedit/snippets folders **
-run install.sh as root from it's directory - 
-power-gedit~$ sudo ./install.sh
+run setup.rb as root from it's directory - 
+$ sudo ruby setup.rb
+
+OR
+
+$ sudo chmod +x setup.rb
+$ sudo ./setup.rb
+
 
 Configure:
 ----------
